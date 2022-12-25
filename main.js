@@ -121,14 +121,14 @@ async function connectionUpdate(update) {
     global.timestamp.connect = new Date
   }
   if (global.db.data == null) loadDatabase()
-   if (update.receivedPendingNotifications) conn.sendButtonDoc(`6282287219167@s.whatsapp.net`, 
+   if (update.receivedPendingNotifications) conn.reply(`6285785705233@s.whatsapp.net`, 
 `┏═══════════════════
 ┃╴◈ Bᴏᴛ Tᴇʟᴀʜ Tᴇʀsᴀᴍʙᴜɴɢ
 ┣═══════════════════
 ┃╴▶ Nᴏᴍᴏʀ : ${global.nomorbot}
 ┃╴▶ Nᴀᴍᴇ Bᴏᴛ : ${global.namebot}
 ┖┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬┬
-`, wm, 'Oᴡɴᴇʀ', '.owner', null
+`, null
 )
 }
 process.on('uncaughtException', console.error)
